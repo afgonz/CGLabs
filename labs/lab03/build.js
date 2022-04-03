@@ -43,7 +43,6 @@ function createCubes() {
         var color = new THREE.Color(0xffffff);
         color.setHex(Math.random() * 0xffffff);
         cubes[i] = createCube(1, 1, 1, color);
-        cubes[i].applyMatrix(combined);
         group.add(cubes[i]);
     }
 }

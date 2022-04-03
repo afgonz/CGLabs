@@ -1,5 +1,5 @@
 setScene();
+addLighting();
 addShapes();
-animate_earth();
-animate_moon();
+animateScene();
 window.addEventListener('resize', resizeScene);
